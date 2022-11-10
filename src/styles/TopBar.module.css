@@ -1,0 +1,5 @@
+.group {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 10px;
+}
