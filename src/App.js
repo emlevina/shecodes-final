@@ -2,7 +2,6 @@ import './styles/App.css';
 import LineChart from './components/LineChart';
 import React from 'react'
 import TopBar from './components/TopBar';
-import Logo from './components/Logo';
 import Footer from './components/Footer';
 import About from './components/About';
 import {

@@ -5,7 +5,7 @@
     gap: 10rem;
     width: 150rem;
     background-color: var(--light-violet-color);
-    color: white;
+    color: var(--violet-color);
     padding: 10rem;
     border-radius: 5rem;
 }   

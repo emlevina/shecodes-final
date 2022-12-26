@@ -1,4 +1,8 @@
 .description {
-    width: 70%;
+    width: 50%;
     padding-top: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    line-height: 1.5em;
 }

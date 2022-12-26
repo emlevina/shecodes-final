@@ -65,11 +65,20 @@ export const options = {
         
         y: { // defining min and max so hiding the dataset does not change scale range
             min: 80,
-            max: 100
+            max: 100,
+            grid: {
+                color: "rgb(221, 221, 221)"
+            },
+            ticks: {
+                color: "rgb(150, 150, 150)"
+            }
         },
         x: {
             grid: {
                 display: false
+            },
+            ticks: {
+                color: "rgb(150, 150, 150)"
             }
         }
     }
