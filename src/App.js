@@ -8,33 +8,21 @@ import About from './components/About';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
+import TopMenu from './components/TopMenu';
 
 const App = () => {
   return (
     <Router>
-      <div className='App'>
+      <div className='container'>
         <TopBar />
-        <Logo />
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Chart</Link>
-            </li>
-            <li>
-              <Link to="/about">About Us</Link>
-            </li>
-          </ul>
-        </nav>
+        <TopMenu />
         <Routes>
           <Route exact path='/' element={< LineChart />}></Route>
           <Route exact path='/about' element={< About />} ></Route>
-
         </Routes>
         <Footer />
-
       </div>
     </Router>
   );

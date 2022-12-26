@@ -1,5 +1,8 @@
 .group {
+    padding-top: 10rem;
     display: flex;
-    flex-flow: row nowrap;
-    column-gap: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
 }

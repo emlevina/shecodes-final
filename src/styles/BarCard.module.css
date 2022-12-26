@@ -1,18 +1,21 @@
 .card {
+    font-weight: 100;
     display: flex;
     flex-flow: column;
-    row-gap: 10px;
-    background-color: blueviolet;
+    gap: 10rem;
+    width: 150rem;
+    background-color: rgb(201, 165, 235);
     color: white;
-    padding: 10px;
+    padding: 10rem;
+    border-radius: 5rem;
 }   
 
 .row {
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-end;
-    min-width: 100px;
-    column-gap: 5px;
+    min-width: 100rem;
+    column-gap: 5rem;
     line-height: 1;
 }
 
