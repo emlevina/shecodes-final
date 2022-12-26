@@ -7,13 +7,14 @@ const BarCard = ({ title, priceYesterday = 5, priceToday = 6 , linkToImg}) => {
     return (
         <div className={styles.card}>
             <div className={[styles.row, styles['row-between']].join(" ")}>
-                {linkToImg && <img src={linkToImg} alt="logo" width='15px' />}
-                <div>{title}/USD</div>
+                <div className={styles.title}>
+                    {linkToImg && <img src={linkToImg} alt="" width='15px' />}
+                    <span>{title}/USD</span>
+                </div>
                 <div><span>{priceYesterday.toFixed(2)}</span></div>
             </div>
             <div className={[styles.row, styles['row-start']].join(" ")}>
-                <div>{growth >= 0 ? '↑' : '↓'}</div>
-                <div><span className={[styles.big, growth >= 0 ? styles.green : styles.red].join(" ")}>{growth}%</span></div>
+                <div><span className={growth >= 0 ? styles.green : styles.red}>{growth >= 0 ? '↑' : '↓'}<span className={styles.big}>{growth}%</span></span></div>
                 <div><span>{diff}</span></div>
             </div>
         </div>

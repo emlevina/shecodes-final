@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+:root {
+  --dark-grey-color: rgb(55, 55, 55);
+  --light-violet-color: rgb(201, 165, 235);
+  --violet-color: rgb(138, 43, 226);
+  --red-color: red;
+  --green-color: green;
+}
+
 html {
   font-size: 6.25%;
 }
@@ -10,11 +18,11 @@ html {
 body {
   font-family: 'Rubik', sans-serif;
   font-size: 14rem;
-  color: black;
+  color: var(--dark-grey-color);
 }
 
 a {
-  color: black;
+  color: var(--dark-grey-color)
 }
 
 

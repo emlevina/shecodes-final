@@ -4,18 +4,23 @@
     flex-flow: column;
     gap: 10rem;
     width: 150rem;
-    background-color: rgb(201, 165, 235);
+    background-color: var(--light-violet-color);
     color: white;
     padding: 10rem;
     border-radius: 5rem;
 }   
+
+.title {
+    display: flex;
+    gap: 5rem;
+}
 
 .row {
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-end;
     min-width: 100rem;
-    column-gap: 5rem;
+    gap: 10rem;
     line-height: 1;
 }
 
@@ -32,9 +37,9 @@
 }
 
 .red {
-    color: red
+    color: var(--red-color)
 }
 
 .green {
-    color: green
+    color: var(--green-color);
 }

@@ -2,16 +2,18 @@
     display: flex;
     align-items: center;
     gap: 10rem;
+    text-decoration: none;
 }
 
 .logoImg {
-    width: 35rem;
-    height: 35rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .logoText {
     text-transform: uppercase;
+    color: black;
     font-weight: 100;
-    font-size: 16rem;
+    font-size: 12rem;
     letter-spacing: 0.1em;
 }

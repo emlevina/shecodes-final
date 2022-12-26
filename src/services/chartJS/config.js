@@ -5,7 +5,7 @@ export const initialData = {
             label: 'XAU/XAG',
             data: [78],
             fill: false,
-            borderColor: "rgba(75,192,192,1)"
+            borderColor: "rgb(201, 165, 235)"
         },
     ]
 };
@@ -22,7 +22,7 @@ export const tooltipLine = {
             ctx.moveTo(activePoint.element.x, chart.chartArea.top)
             ctx.lineTo(activePoint.element.x, chart.chartArea.bottom)
             ctx.lineWidth = 1
-            ctx.strokeStyle = 'red'
+            ctx.strokeStyle = 'rgb(138, 43, 226)'
             ctx.stroke()
 
             ctx.beginPath()
